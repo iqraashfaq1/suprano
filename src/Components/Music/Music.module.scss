@@ -1,0 +1,43 @@
+@import '../../../src/index.scss';
+
+.main_container{
+    @include media("mobileonly") {
+    background-color: #151515;
+    padding-top: 1.5rem;
+    
+        .first_col{
+            img{
+                width: 100%;
+                height: auto;
+                padding-left: 0.7rem;
+            }
+
+        }
+        .second_col{
+            padding-top: 1rem;
+            padding-left: 7px;
+            
+            p{
+            font-size: 8px;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #FFFF;
+            line-height: 11px;
+            }
+            h1{
+                color: #FFFF;
+                font-weight: 800;
+                text-transform: uppercase;
+                font-size: 19px;
+                line-height: 22px;
+
+            }
+        }
+        .third_col{
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }}

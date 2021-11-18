@@ -1,0 +1,11 @@
+@import '../../../src/index.scss';
+
+.app__videos {
+    position: relative;
+    height: 100vh;
+    border-radius: 20px;
+    overflow: scroll;
+    width: 100%;
+    max-width: 500px;
+    scroll-snap-type: y mandatory;
+  }

@@ -1,0 +1,34 @@
+@import '../../../src/index.scss';
+.main_container{
+    @include media("mobileonly") {
+    // width: 100%;
+    // height: auto;
+    // scroll-snap-type: y mandatory;
+    // overflow: scroll;
+    // display: flex;
+
+    .video_container{
+        @include media("mobileonly") {
+        border: 1px solid black;
+        width: 100%;
+        // height: 500px;
+        scroll-snap-type: y mandatory;
+        // overflow: scroll;
+        margin: 0 auto;
+        position: relative;
+        scroll-snap-align: start;
+
+
+        video{
+object-fit: contain;
+width: 100%;
+height: 100%;
+        }
+        }
+
+        
+    }
+    
+ }
+    
+}

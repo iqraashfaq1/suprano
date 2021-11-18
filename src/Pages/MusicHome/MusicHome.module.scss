@@ -1,0 +1,53 @@
+@import '../../../src/index.scss';
+
+.main_container{
+    background-color: #151515;
+.images_container{
+@include media("mobileonly") {
+    
+img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+}
+}
+.text_container{
+    @include media("mobileonly") {
+        padding: 1rem;
+    h1{
+        color: #fff;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 24px;
+    }
+    p{
+        color: #fff;
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+}
+.col_container{
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+    button{
+        background: linear-gradient(100.93deg, #EC1B1B 18.6%, #E4580A 100.88%);
+        border-radius: 10px;
+        font-size: 12px;
+        font-style: italic;
+        text-transform: uppercase;
+        color: #fff;
+        border: none;
+        margin-top: 4rem;
+        img{
+            width: 16%;
+            height: auto;
+            padding-bottom: 4px;
+        }
+    }
+}
+}

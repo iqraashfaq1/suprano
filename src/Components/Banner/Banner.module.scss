@@ -1,0 +1,20 @@
+@import '../../../src/index.scss';
+
+.main_container{
+    @include media("mobileonly") {
+    background-color: black;
+    
+    }
+    .image_container{
+        @include media("mobileonly") {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         width: 100%;
+       height: auto;
+       padding-top: 3rem;
+       padding-bottom: 3rem;
+
+    }
+}
+}

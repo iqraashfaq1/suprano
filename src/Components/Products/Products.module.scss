@@ -1,0 +1,41 @@
+@import '../../../src/index.scss';
+.main_container{
+    .product_container{
+        img{
+            @include media("mobileonly") {
+            width: 100%;
+            height: auto;
+            // display: flex;
+            // overflow: hidden;
+            // justify-content: center;
+            // align-items: center;
+        }}
+    }
+    .vector_container{
+        @include media("mobileonly") {
+        background-color: #151515;
+        ;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 12px;
+        
+        
+        img{
+            width: 20px;
+            height: 20px;
+        }
+        p{
+            color: white;
+            // letter-spacing: 0.1em;
+text-transform: uppercase;
+font-size: 12px;
+        }
+        span{
+            border-bottom: 2px solid red;
+           margin-bottom: 12px;
+           
+        }
+    }}
+   
+
+}

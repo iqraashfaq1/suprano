@@ -1,0 +1,86 @@
+@import '../../../src/index.scss';
+.main_container{
+    @include media("mobileonly") {
+    background-color: black;
+    // display: flex;
+}
+    h1{
+        @include media("mobileonly") {
+        color: white;
+        margin-left: 20px;
+    }
+}
+.main_div{
+    @include media("mobileonly") {
+        display: flex;
+        overflow-x: scroll;
+        width: 100%;
+        height: auto;
+
+    }
+    .first_div{
+        @include media("mobileonly") {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    
+    }
+    p{
+        color: white;
+    }
+}
+@include media("mobileonly") {
+    display: flex;
+    overflow-x: scroll;
+
+}
+.second_div{
+    @include media("mobileonly") {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+p{
+    color: white;
+}
+}
+
+
+.third_div{
+    @include media("mobileonly") {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+p{
+    color: white;
+}
+}
+.forth_div{
+    @include media("mobileonly") {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+p{
+    color: white;
+}
+}
+
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+}

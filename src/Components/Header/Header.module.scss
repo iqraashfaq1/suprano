@@ -1,0 +1,28 @@
+@import '../../../src/index.scss';
+.main_container{
+    .left_side{
+        img{
+            @include media("mobileonly") {
+                width: 4rem;
+                height: auto;
+                margin-left: 2rem;
+               }
+           
+        }
+    }
+    .right_side{
+        .icon{
+        @include media("mobileonly") {
+            width: 4rem;
+                height: auto;
+                color: red;
+                
+           }
+        }
+        .vector{
+            width: 4rem;
+            height: auto;
+            color: red;
+        }
+    }
+}

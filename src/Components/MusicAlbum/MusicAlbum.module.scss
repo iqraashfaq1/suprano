@@ -1,0 +1,19 @@
+@import '../../../src/index.scss';
+.main_container{
+    background-color: black;
+    img{
+        width: 70%;
+        height: auto;
+        padding-left: 15px;
+    }
+    p{
+        font-size: 12.0294px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding-top: 20px;
+    }
+    .time_container{
+        padding-left: 35px;
+    }
+}
